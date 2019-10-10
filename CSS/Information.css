@@ -1,0 +1,112 @@
+
+aside {
+    float: left;
+    width: 200px;
+
+    background: #86b3c3;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    font: 12pt Consolas;
+    padding: 0;
+}
+
+aside ul {
+    text-decoration: none;
+    /*white-space: pre;*/
+    padding: 10px;
+}
+
+aside ul li {
+    list-style-type: none;
+    padding: 5px;
+}
+aside ul li span{
+    position: absolute;
+    left:85px;
+}
+aside ul input {
+    float: right;
+}
+
+main {
+    float: right;
+}
+
+
+.information{
+
+    width:800px ;
+padding-bottom: 10px;
+    background-color: #86b3c3;
+
+}
+.information p{
+    font:  12pt SansSerif ;
+    color: #6E6E6E;
+    padding: 5px;
+}
+.information table td{
+    border: 1px solid ;
+    margin: 0;
+    padding: 3px;
+
+}
+.information table{
+    margin-left: 20px;
+
+    width: 700px;
+
+
+
+}
+#upload{
+    background-color: #fdfddf;
+position: relative;
+}
+#purchase{
+    background-color: #fde3c3;
+}
+#sold{
+    background-color: #cbfd98;
+}
+
+
+#confirm_charge {
+    color: red;
+    font: 12pt sans-serif;
+}
+#recharge {
+    height: 20px;
+    width: 200px;
+}
+.modifyBtn, .deleteBtn{
+    background: #FFF;
+    border: 1px solid #CCC;
+    padding: 10px 25px 10px 25px;
+    margin: 5px;
+    color: #333;
+    border-radius: 4px;
+    float: bottom;
+    bottom: 10px;
+}
+#uploadBtn{
+    background: #FFF;
+    border: 1px solid #CCC;
+    padding: 10px ;
+    margin: 20px 20px 5px 20px;
+    color: #333;
+    border-radius: 4px;
+}
+
+.chargeBtn{
+    background: #FFF;
+    border: 1px solid #CCC;
+    padding: 10px 25px 10px 25px;
+    margin: 5px;
+    color: #333;
+    border-radius: 4px;
+}
+.recharge{
+    padding: 10px;
+}

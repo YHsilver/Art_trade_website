@@ -1,0 +1,165 @@
+body {
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#top {
+    background-color: black;
+    height: 30px;
+    font: 12pt Segoe Script;
+    color: white;
+}
+
+#top span {
+    font: 1.5em "Segoe Script";
+}
+
+#top p {
+    display: inline;
+    font-size: 0.8em;
+}
+
+#top a {
+    font-family: sans-serif;
+    padding: 2px;
+    margin: 2px 10px;
+    color: #b8b6b4;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#top a #myCount {
+    display: none;
+}
+
+#top.log {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+#top #or {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#top a:hover {
+    color: #87bff2;
+    text-decoration: underline;
+
+}
+
+#top div {
+    float: right;
+
+}
+
+#top div a {
+    display: none;
+}
+
+#top div p {
+    display: none;
+}
+
+
+#middle {
+    height: 70px;
+    font: bold 36px "Segoe Script";
+    position: relative;
+}
+
+
+#middle div {
+    display: inline;
+    float: right;
+    background: transparent;
+    position: relative;
+}
+
+#middle p {
+    display: inline;
+    margin: 20px;
+}
+
+
+#middle div input {
+    width: 200px;
+    height: 30px;
+    padding: 1px 13px;
+    border: 2px solid #F9F0DA;
+
+}
+
+#middle div input:focus {
+    border-color: #311c24
+}
+
+
+#middle div span {
+    color: #bdcef9;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#bottom {
+    height: 40px;
+    background-color: #dae4f2
+}
+
+#bottom li {
+    display: inline;
+    padding: 0 1em;
+    margin: 50px;
+
+}
+
+#bottom a {
+    font-family: sans-serif;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+#bottom a:hover {
+    color: #87bff2;
+}
+
+footer {
+    clear: both;
+    width: 1080px;
+    background-color: #b8b6b4;
+    font: 10pt "Segoe Script";
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    margin-top: 20px;
+
+
+}
+
+footer p {
+    margin: 2px;
+}
+
+#middle #footprint {
+    position: absolute;
+    font: 12pt Myriad Pro;
+    bottom: 2px;
+    margin-bottom: 3px;
+
+}
+#middle #footprint a{
+    text-decoration: none;
+    color: gray;
+}
+#middle #footprint a:hover{
+    text-decoration: underline;
+    color: #9d9d9d;
+}

@@ -1,0 +1,91 @@
+<div id ="Sign">
+    <div id="popBox">
+        <form action="Sign.php" method="post" id="signForm">
+            <fieldset>
+                <legend>Sign Up</legend>
+                <p>
+                    <label class="title">用户名: </label>
+                    <input autocomplete="off" type="text" id="user" name="username">
+                    <label class="reminder">*(至少6位，不能为纯数字或纯字母。 如:123abc)</label>
+                <p id="user_reminder" class="reminder_error">&nbsp;</p>
+                </p>
+                <p>
+                    <label class="title">密码:</label>
+                    <input autocomplete="off" type="password" id="password" name="pass">
+                    <label class="reminder">*(密码至少为6位，不能与用户名相同, 不能为纯数字。 如：123bca)</label>
+                <p id="password_reminder" class="reminder_error">&nbsp;</p>
+                </p>
+                <p>
+                    <label class="title">确认密码:</label>
+                    <input autocomplete="off" type="password" id="repassword" name="repass">
+                    <lable class="reminder">*(确保密码一致）</lable>
+                <p id="repassword_reminder" class="reminder_error">&nbsp;</p>
+                </p>
+                <p>
+                    <label class="title">电话:</label>
+                    <input autocomplete="off" type="text" id="tel" name="tel">
+                    <lable class="reminder">*(11位大陆手机号。如：13266669999）</lable>
+                <p id="tel_reminder" class="reminder_error">&nbsp;</p>
+                </p>
+                <p>
+                    <label class="title">邮箱:</label>
+                    <input autocomplete="off" type="text" id="email" name="email">
+                    <lable class="reminder">*(如：users@sever.com）</lable>
+                <p id="email_reminder" class="reminder_error">&nbsp;</p>
+                </p>
+                <p>
+                    <label class="title">地址:</label>
+                    <input autocomplete="off" type="text" id="address" name="address">
+                    <lable class="reminder">*</lable>
+                <p id="address_reminder" class="reminder_error">&nbsp;</p>
+                </p>
+
+
+
+                <a><input type="button" value="Sign" onclick="check()"  id="signSubmit"></a>
+                <a><input type="button" value="Cancel" onclick="closeBox()" ></a>
+            </fieldset>
+        </form>
+
+    </div>
+    <div id="popLayer"></div>
+</div>
+<div id="Log">
+    <div id="popBox_log">
+        <form action="Log.php" method="post" id="logForm">
+            <fieldset>
+                <legend>Log In</legend>
+
+                <div class="logForm">
+                    <p class="row">
+                        <label>User Name:</label>
+                        <input type="text" name="user_log" id="user_log" autocomplete="off">
+                    </p>
+                    <p class="reminder_error_log" id="user_reminder_log">&nbsp;</p>
+                </div>
+
+                <div class="logForm"><p class="row">
+                    <label>Password:</label>
+                    <input type="password" name="pass_log" id="password_log" autocomplete="off">
+                </p>
+                    <p class="reminder_error_log" id="password_reminder_log">&nbsp;</p>
+                </div>
+
+
+                <div class="logForm">
+                    <label class="row">验证码: </label>
+                    <p class="row">
+                        <canvas id='auth-code'></canvas>
+                        <input type="text" name="confirm" id="confirm_log" autocomplete="off">
+                    </p>
+                    <p class="reminder_error_log" id="confirm_reminder_log">&nbsp;</p>
+                </div>
+
+
+                <a><input type="button" value="Cancel" onclick="closeBox()"></a>
+                <a><input type="button" value="Submit" onclick="check_log()" id="logSubmit"></a>
+            </fieldset>
+        </form>
+    </div>
+    <div id="popLayer_log"></div>
+</div>

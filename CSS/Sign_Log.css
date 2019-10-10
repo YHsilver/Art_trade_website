@@ -1,0 +1,115 @@
+
+/*注册弹窗*/
+/*背景层*/
+#popLayer {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    opacity: .80;
+}
+
+/*弹出层*/
+#popBox {
+    display: none;
+    z-index: 11;
+    background-color: rgb(219, 219, 219);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 700px;
+    height: 450px;
+    padding: 5px;
+}
+
+#signForm .reminder{
+    font: 10pt sans-serif;
+    position: absolute;
+    left: 350px;
+}
+#signForm p input {
+    position: absolute;
+    left:100px;
+    width: 240px;
+}
+#signForm p {
+    margin:10px;
+    /*margin: 0;*/
+}
+#signForm a {
+    float: right;
+    margin-right: 20px;
+}
+.reminder_error{
+    color: firebrick;
+    margin: 0;
+    position: relative;
+    left: 80px;
+
+}
+
+
+
+
+/*登陆*/
+
+
+.logForm {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.logForm .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+[type=button]{
+    cursor: pointer;
+}
+.reminder_error_log{
+    text-align: right;
+    right: 10px;
+    margin: 0;
+    color: firebrick;
+
+}
+
+
+/*背景层*/
+#popLayer_log {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    opacity: .80;
+}
+
+/*弹出层*/
+#popBox_log {
+    display: none;
+    z-index: 11;
+    background-color: rgb(219, 219, 219);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 350px;
+    height: 240px;
+}
+
+

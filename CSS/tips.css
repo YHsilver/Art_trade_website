@@ -1,0 +1,60 @@
+/*背景层*/
+#popLayer_add, #popLayer_delete, #popLayer_pay, #popLayer_recharge{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    opacity: .80;
+}
+
+/*弹出层*/
+#popBox_add, #popBox_delete, #popBox_pay , #popBox_recharge{
+    background-color: whitesmoke;
+    display: none;
+    z-index: 11;
+    width: 300px;
+    height: 150px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+
+/*按钮*/
+#popBox_add input[type="button"], #popBox_delete input[type="button"] , #popBox_pay input[type="button"] {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+
+    width: 50px;
+    height: 30px;
+    border: 0 none;
+    color: #fff;
+    outline: none;
+    font-size: 1em;
+    border-radius: 2px;
+    margin-left: 5px;
+    cursor: pointer;
+    background-color: #ff3b3b;
+}
+
+/*内容*/
+#popBox_add .content, #popBox_delete .content, #popBox_pay .content ,#popBox_recharge .content{
+    font-size: 1.5em;
+    text-align: center;
+    margin: 10px;
+}
+
+
+#popBox_add .tips, #popBox_delete .tips, #popBox_pay .tips  , #popBox_recharge .tips{
+    background-color: #89cbf2;
+    text-align: center;
+    height: 25px;
+}

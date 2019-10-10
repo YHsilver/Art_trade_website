@@ -1,0 +1,187 @@
+.works {
+    width: 300px;
+
+}
+.hot{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.hot-description{
+    text-align: justify;
+}
+.works{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.hot-image{
+    width: 150px;
+    height: 150px;
+}
+.hot a{
+    background-color: rgba(13, 95, 191, 0.77);
+    font:  1em "Segoe Script";
+    text-decoration: none;
+    color: white;
+    border: black solid 1px;
+    padding: 3px 2px;
+}
+
+
+
+.owl-carousel img {
+    width: 1080px;
+    height: 420px;
+    opacity: 0.8;
+
+}
+
+.owl {
+    position: relative;
+    overflow: hidden;
+
+
+    height: 420px;
+    width: 1080px;
+    margin-bottom: 10px;
+}
+
+.owl-carousel {
+    width: 1000%;
+    position: absolute;
+    list-style: none;
+    left: 0;
+    top: 0;
+
+}
+
+.owl-stage-figure img {
+    vertical-align: top
+
+}
+
+.owl-stage-figure {
+    width: 1080px;
+    height: 420px;
+    position: relative;
+
+    float: left;
+    vertical-align: top;
+
+
+}
+
+.owl-stage-figure div {
+    position: absolute;
+    top: 80px;
+    left: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.owl-stage-figure .owl-name {
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.owl-stage-figure .owl-author {
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+.owl-stage-figure .owl-description {
+    font: 1.25em "Segoe UI Symbol";
+
+}
+
+.owl-stage-figure .owl-more {
+    font: 1.25em "Segoe Script";
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.71);
+    border: black solid 1px;
+    padding: 3px 2px;
+}
+
+.owl-stage-figure .owl-more:hover {
+    font-weight: bold;
+}
+
+
+.owl-controls {
+    position: absolute;
+    height: 20px;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.owl-controls li {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background-color: #fff;
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+.owl-controls .current {
+    background-color: red;
+}
+
+#arr {
+    display: none;
+}
+
+#arr span {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    margin-top: -20px;
+    background: #fff;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: '黑体';
+    font-size: 30px;
+    color: #000;
+    opacity: 0.5;
+    border: 1px solid #fff;
+}
+
+#arr #right {
+    right: 5px;
+    left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

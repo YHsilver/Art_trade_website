@@ -1,0 +1,47 @@
+<header>
+    <div id="top">
+        <p>Welcome to <a href="Home.php" style="color: #b8b6b4;text-decoration: none;"><span>Art Store</span></a></p>
+        <div>
+            <a class="log" id="login">LOG IN </a>
+            <p class="log" id="or"> OR</p>
+            <a class="log" id="signup">SING UP</a>
+            <a href="Information.php" id="myCount">MY COUNT</a>
+            <a href="ShoppingCart.php" id="shopping">Shopping Cart </a>
+            <a href="#" id="signOut">SING OUT</a>
+        </div>
+    </div>
+    <div id="middle">
+
+        <a href="Home.php" style="color: black;text-decoration: none;"><p>Art Store</p></a>
+        <p id="footprint"></p>
+        <div>
+            <input type="text" name="search" placeholder="Search..." id="input" onchange="set()">
+            <a href="Search.php" id="link"><span class="fa fa-search"></span></a>
+        </div>
+    </div>
+    <nav id="bottom">
+
+        <li><a href="Home.php">HOME</a></li>
+        <li><a href="Search.php">SEARCH</a></li>
+    </nav>
+
+
+    <script>
+        //Search Bar
+        var link = document.getElementById('link');
+        var search = document.getElementById('input');
+
+        search.onkeydown = function (e) {
+            var theEvent = e || window.event;
+            var code = theEvent.keyCode || theEvent.which || theEvent.charCode;
+            if (code ==13) {
+                set();
+                link.click();
+            }
+        };
+        function set() {
+            link.setAttribute('href', "Search.php?Name=" + search.value)
+        }
+
+    </script>
+</header>

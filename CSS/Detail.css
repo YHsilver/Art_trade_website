@@ -1,0 +1,72 @@
+main {
+    margin-left: 10px;
+
+}
+#detail-name{
+    font: 18pt "Segoe Script";
+margin-bottom: 2px;
+    margin-left: 5px;
+}
+#detail-author{
+
+    font: italic 12pt serif;
+    margin-top: 2px;
+}
+#detail-author a{
+    text-decoration: none;
+}
+#detail-author a:hover{
+    color: rgba(56, 142, 199, 0.7);
+}
+#detail-description{
+    text-align: justify;
+}
+#detail-price{
+    font-family: Stencil Std ,"Segoe UI Light",serif;
+}
+.detail-image{
+    width: 380px;
+height: 500px;
+}
+main>div{
+    display: flex;
+    justify-content: space-between;
+
+}
+#right-text{
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 680px;
+
+
+}
+#buttons input{
+    background-color: #87bff2;
+    font-weight: bold;
+}
+#detail-table{
+border-collapse: collapse;
+    font: 12pt Arial;
+    margin-top: 20px;
+}
+#detail-table td {
+padding:10px ;
+
+
+}
+
+tr{
+    background-color: #F1F1F1;
+border-bottom: 1px solid white;
+    color: #6E6E6E;
+}
+thead tr {
+    background-color: #CACACA;
+    padding: 0.75em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
